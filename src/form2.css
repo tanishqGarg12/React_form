@@ -1,0 +1,129 @@
+*{
+    padding: 0px;
+    margin: 0px;    
+}
+
+.main{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+}
+.box{
+    /* position: absolute; */
+    margin-left: 115rem;
+    position: absolute;
+    display: flex;
+    float: left;
+    border: 1px solid black;
+    /* color: aqua; */
+    background-color: yellow;
+    /* pad   */
+    padding-top: 100%;
+    padding-right: 100%;
+    padding-bottom: 100%;
+    
+}
+.span{
+    color: green;
+    font-size: bold;
+}
+.main1{
+    font-size: x-large;
+    width: 80%;
+    margin-left: 200px;
+    
+}
+form{
+    max-width: 100%;
+    width: 90%;
+    display: flex;
+    text-align: center;
+    /* border:2px solid black; */
+    box-shadow:2px 2px 2px 2px blue ;
+    flex-direction: column;
+    margin-left: 200px;
+    /* height: max-content; */
+    
+}
+label{
+    position: absolute;
+    font-size: 20px;
+    text-align: left;
+    display:flex;
+    color: green;
+    font-weight: 500;
+    margin-left: 10px;
+    display:none;
+  }
+  input[type="text"],input[type="email"],input[type="number"]{
+    /* position: relative; */
+    display: flex;
+    font-size:xx-large;
+    max-width: 100%;
+    display: block  ;
+    
+    width:95%;
+
+    border-bottom: 3px solid black;
+    margin-left: 10px;
+
+}
+input[type="text"]:focus,input[type="email"]:focus,input[type="number"]:focus{
+outline: none;
+}
+input[type="text"]::placeholder,input[type="email"]::placeholder,input[type="number"]::placeholder{
+    font-size: x-large;
+    }
+    
+input[type="text"]:focus::placeholder,input[type="email"]:focus::placeholder,input[type="number"]:focus::placeholder{
+    transform: translateY(-50%);
+    transition: all 0.5s;
+    }
+    
+  input[type="text"]:hover,input[type="email"]:hover,input[type="number"]:hover{
+    border-color: rgb(23, 23, 202);
+
+}
+select[id="country"]{
+    display: flex;
+    justify-content: end;
+    font-size:20px;
+    position: relative;
+    width:50%;
+    border-radius:6px;
+    border: 3px solid black;
+    margin-left: 10PX;
+    width: 95%;
+}
+select[id="country"]:hover{
+    border-color: orange;
+
+    
+}
+
+button{
+    display: flex;
+    justify-content: left;
+}
+button[type="submit"]{
+    border: 2px solid black;
+    margin: auto;
+    display: block;
+    margin-bottom: 15px;
+   background-color: rgb(86, 233, 86);
+    font-size: 20px;
+    border-radius: 6px;
+    width: 50%;
+    cursor: 'pointer';
+    display: flex;
+    justify-content:space-around;
+    align-self: flex-start;
+    /* justify-content: left; */
+    /* justify-content: space-around;     */
+}
+button[type="submit"]:hover{
+   background-image: linear-gradient(yellow,white, green) ;  
+}
